@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tamil Nadu City Weather</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://play-lh.googleusercontent.com/MFMPQ9CI0em-4AuBsiEZ4qiTBBCZ9ThmijX8YA9WD3fv5RhtLyXcpc8qdZhSq1d6XTc" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <h1>Tamil Nadu City Weather</h1>
+    </header>
+    <div class="container">
+        <div class="weatherBox">
+            <div class="input-box">
+                <label for="cityName">City Name</label><br>
+                <input id="cityName" type="text">
+                <button class="weather-btn" id="getBtn">Get Weather</button>
+            </div>
+            <div class="weather-box">
+                <div class="weather-image">
+                    <img id="weather_icon" src=""> <!--Weather image-->
+                </div>
+                <div class="weather"> <!--weathe details-->
+                    <h1 class="currentWeather" value="0">Weather : <span> 0</span> °C</h1>
+                    <p class="min-temp">Min Temp : <span>0</span></p>
+                    <p class="max-temp">Max Temp : <span>0</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
