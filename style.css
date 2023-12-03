@@ -228,7 +228,7 @@ input:focus {
   .weather {
     border: none;
   }
-  .weather-image img {
+  .weather-image .image-box {
     width: 100px;
     height: 100px;
   }
