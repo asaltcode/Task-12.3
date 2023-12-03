@@ -159,6 +159,7 @@ input:focus {
   padding: 8px;
   border-radius: 15px;
   font-weight: 600;
+  cursor: pointer;
 }
 .weather-box {
   color: white;
@@ -180,8 +181,6 @@ input:focus {
   border-left: 3px solid white;
 }
 .weather-image {
-  /* display: grid;
-  place-items: center; */
   display: flex;
   justify-content: center;
   align-items: center;
